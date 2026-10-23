@@ -6,7 +6,7 @@
       "environment":"preview",
       "autoIncrement":true,
       "env":{"EXPO_PUBLIC_PREVIEW_MODE":"offline"},
-      "ios":{"simulator":false}
+      "ios":{"simulator":false,"image":"latest"}
     }
   },
   "submit":{
