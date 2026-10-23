@@ -10,6 +10,6 @@
     }
   },
   "submit":{
-    "testflight-preview":{"ios":{"appleTeamId":"JTRPY5VG8W"}}
+    "testflight-preview":{"ios":{"appleTeamId":"JTRPY5VG8W","ascAppId":"6826424016"}}
   }
 }
