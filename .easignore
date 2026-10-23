@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.expo/
+.git/
+.env*
+*.log
+*.sqlite3*
+*.p12
+*.mobileprovision
+*.key
+*.pem

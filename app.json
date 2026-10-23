@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name":"VESPRA Preview",
+    "slug":"vespra-preview",
+    "owner":"ghamiltonjrs-team",
+    "version":"0.3.0",
+    "orientation":"portrait",
+    "userInterfaceStyle":"automatic",
+    "icon":"./assets/app-icon.png",
+    "ios":{"supportsTablet":true,"bundleIdentifier":"com.gregoryhamilton.vespra.preview","buildNumber":"1","config":{"usesNonExemptEncryption":false},"infoPlist":{"NSAppTransportSecurity":{"NSAllowsArbitraryLoads":false,"NSAllowsLocalNetworking":true}}},
+    "android":{"package":"com.gregoryhamilton.vespra.preview","allowBackup":false},
+    "plugins":[["expo-secure-store",{"configureAndroidBackup":true}],"expo-sqlite"],
+    "extra":{"releaseStatus":"offline-fictional-testflight-preview","eas":{"projectId":"5156f493-e2b8-483e-afed-fd14516f9e53"}}
+  }
+}
