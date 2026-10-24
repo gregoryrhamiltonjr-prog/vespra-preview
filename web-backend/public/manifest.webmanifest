@@ -1,0 +1,1 @@
+{"name": "VESPRA Demo", "short_name": "VESPRA", "start_url": "/", "display": "standalone", "background_color": "#111820", "theme_color": "#111820", "icons": [{"src": "/brand/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]}

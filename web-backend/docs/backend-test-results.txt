@@ -1,0 +1,39 @@
+test_authenticated_backup_restore_and_tamper_rejection (test_ops.OperationalTests.test_authenticated_backup_restore_and_tamper_rejection) ... ok
+test_check_exposes_counts_not_secrets (test_ops.OperationalTests.test_check_exposes_counts_not_secrets) ... ok
+test_key_permissions_and_overwrite_are_rejected (test_ops.OperationalTests.test_key_permissions_and_overwrite_are_rejected) ... ok
+test_private_migration_is_idempotent_and_does_not_seed (test_ops.OperationalTests.test_private_migration_is_idempotent_and_does_not_seed) ... ok
+test_account_deletion_removes_shared_records_and_auth (test_platform.PlatformTests.test_account_deletion_removes_shared_records_and_auth) ... ok
+test_demo_cannot_impersonate_registered_account (test_platform.PlatformTests.test_demo_cannot_impersonate_registered_account) ... ok
+test_email_verification_is_not_identity (test_platform.PlatformTests.test_email_verification_is_not_identity) ... ok
+test_export_excludes_other_private_data_and_secrets (test_platform.PlatformTests.test_export_excludes_other_private_data_and_secrets) ... ok
+test_failed_login_rate_limit_persists (test_platform.PlatformTests.test_failed_login_rate_limit_persists) ... ok
+test_independent_safety_restrictions_do_not_cancel_each_other (test_platform.PlatformTests.test_independent_safety_restrictions_do_not_cancel_each_other) ... ok
+test_mail_retry_and_code_redaction_after_delivery (test_platform.PlatformTests.test_mail_retry_and_code_redaction_after_delivery) ... ok
+test_membership_and_push_never_fake_success (test_platform.PlatformTests.test_membership_and_push_never_fake_success) ... ok
+test_moderation_rbac_case_version_and_suspension (test_platform.PlatformTests.test_moderation_rbac_case_version_and_suspension) ... ok
+test_native_session_contract_and_secure_cookie (test_platform.PlatformTests.test_native_session_contract_and_secure_cookie) ... ok
+test_notification_privacy_and_preference (test_platform.PlatformTests.test_notification_privacy_and_preference) ... ok
+test_paginated_discovery_and_message_history (test_platform.PlatformTests.test_paginated_discovery_and_message_history) ... ok
+test_private_mode_disables_demo_and_seed (test_platform.PlatformTests.test_private_mode_disables_demo_and_seed) ... ok
+test_recovery_is_generic_one_use_and_revokes_sessions (test_platform.PlatformTests.test_recovery_is_generic_one_use_and_revokes_sessions) ... ok
+test_registration_consent_and_underage (test_platform.PlatformTests.test_registration_consent_and_underage) ... ok
+test_retention_purges_expired_operational_records (test_platform.PlatformTests.test_retention_purges_expired_operational_records) ... ok
+test_sessions_and_password_rotation (test_platform.PlatformTests.test_sessions_and_password_rotation) ... ok
+test_adult_gate_and_session (test_product.ProductTests.test_adult_gate_and_session) ... ok
+test_agree_before_reservation_and_honest_fallback (test_product.ProductTests.test_agree_before_reservation_and_honest_fallback) ... ok
+test_block_is_bidirectional_and_revokes_access (test_product.ProductTests.test_block_is_bidirectional_and_revokes_access) ... ok
+test_cancel_does_not_allow_accept_or_reserve (test_product.ProductTests.test_cancel_does_not_allow_accept_or_reserve) ... ok
+test_chat_authorization_and_storage (test_product.ProductTests.test_chat_authorization_and_storage) ... ok
+test_csrf_and_origin (test_product.ProductTests.test_csrf_and_origin) ... ok
+test_dst_and_future_validation (test_product.ProductTests.test_dst_and_future_validation) ... ok
+test_mutual_interest_and_idempotency (test_product.ProductTests.test_mutual_interest_and_idempotency) ... ok
+test_profile_and_logout (test_product.ProductTests.test_profile_and_logout) ... ok
+test_reflection_is_private_and_meet_is_time_gated (test_product.ProductTests.test_reflection_is_private_and_meet_is_time_gated) ... ok
+test_report_has_no_false_review_claim (test_product.ProductTests.test_report_has_no_false_review_claim) ... ok
+test_revisions_invalidate_consent (test_product.ProductTests.test_revisions_invalidate_consent) ... ok
+test_security_headers (test_product.ProductTests.test_security_headers) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 6.038s
+
+OK

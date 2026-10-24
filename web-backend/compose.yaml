@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8765:8765"
+    environment:
+      VESPRA_MODE: private
+      VESPRA_DB: /data/vespra.sqlite3
+      VESPRA_PUBLIC_ORIGIN: http://127.0.0.1:8765
+    volumes:
+      - vespra_data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 128
+    mem_limit: 512m
+    restart: "no"
+volumes:
+  vespra_data:

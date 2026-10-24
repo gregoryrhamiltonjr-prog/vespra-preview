@@ -1,0 +1,12 @@
+Executed during final native validation; reproduced from the completed tool output.
+
+$ npm test
+> node tests/api.cjs
+PASS release build refuses an unconfigured endpoint
+PASS remote HTTP is refused even in development
+PASS native session uses SecureStore and authenticated headers
+PASS logout clears in-memory and persisted credentials
+PASS expired native sessions are removed from secure storage
+PASS sessions cannot migrate to a different API origin
+
+The subsequent native change only aligned control-border color constants with the tested web tokens. The API source and API tests were unchanged; TypeScript and both bundles were rebuilt after that palette change.

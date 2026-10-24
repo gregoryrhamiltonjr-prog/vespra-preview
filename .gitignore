@@ -9,3 +9,12 @@ __pycache__/
 *.mobileprovision
 *.key
 *.pem
+*.sqlite
+*.db
+*.backup
+*.pyc
+*.zip
+*.p8
+*.pfx
+*.cer
+credentials.json

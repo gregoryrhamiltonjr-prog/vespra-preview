@@ -1,0 +1,12 @@
+PASS Discover rendering and demo labels
+PASS all five navigation screens
+PASS chat output escapes hostile markup
+PASS proposal waiting state and reservation honesty
+PASS agreed state exposes reservation fallback
+PASS Date Studio form and explicit timezone
+PASS onboarding adult gate and provisional name
+PASS private-mode onboarding hides demo access
+PASS registered profile names escape markup
+PASS account privacy controls and moderator UI gating
+PASS registration consent and masked password fields
+PASS restricted-account mutations retain CSRF protection

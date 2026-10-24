@@ -1,0 +1,82 @@
+{
+  "generated_utc": "2026-10-23T14:17:56.262447+00:00",
+  "version": "2.0-private-evaluation",
+  "evidence": "Previously completed tool runs; raw evidence attached. This helper does not execute tests.",
+  "checks": {
+    "backend_operator": {
+      "passed": true,
+      "tests": 34
+    },
+    "web": {
+      "passed": true,
+      "groups": 12
+    },
+    "native_api": {
+      "passed": true,
+      "groups": 6
+    },
+    "native_types": {
+      "passed": true,
+      "compiler": "TypeScript 5.9.3"
+    },
+    "native_js_export": {
+      "passed": true,
+      "platforms": [
+        "ios",
+        "android"
+      ]
+    },
+    "contrast": {
+      "passed": true,
+      "text_pairings": 25,
+      "control_pairings": 4
+    },
+    "syntax": {
+      "passed": true,
+      "languages": [
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "source_sha256": {
+    "server.py": "4a317fbcaef74442e410d5f0b80810c0352b4379e0f6e95334bb0a3ecfdb008f",
+    "services.py": "a9ad271a7f25e5a459484d23baa3410e18cb99d1a1842fe5f35a9951b1467895",
+    "adapters.py": "93d3a16aa1134a2e628c636c6b7b498fb67d133b8e25bd7ec0c70db360d25417",
+    "manage.py": "4946f8d936ab9a7c08b3de08409ee103a88aa12b04c7a1862753f5283b242ee7",
+    "ops/backup.mjs": "c24e6c5fa676e4aa695275335b7cbd09f892d6b5cb15e9696a09feb6c36e449f",
+    "public/app.js": "02c02059b22abffd110756b7523591dccb399125db9b4fb604a541eab3be9755",
+    "public/platform.js": "709d17c1c7634ee480c6b523792bfe728bc6a631baa237cda19dc46cd30bc33f",
+    "public/style.css": "c1e7cd77fea9dfb2cd2f3bd54bfa83253eb719a01d41b668d802ab74523920ea",
+    "mobile/App.tsx": "650cab2b8326872903591be762f8fb93da4c6d66114feba27e4c12e82805307a",
+    "mobile/api.ts": "27ae76a1b488b0d38010a1656d665f9a3a557e0d5e5cfd2c04a3c6ec7b41f5c7",
+    "mobile/package-lock.json": "2a9681c7cea78e9e245b70dd5600b5dccf484a8cf323ff2e5d66e5dd52483a9d"
+  },
+  "artifacts": {
+    "mobile/dist/_expo/static/js/android/index-17b579b2f1c093996700404c74109244.hbc": {
+      "bytes": 1628315,
+      "sha256": "32cca55ab14bc70b746143f5e6e3b3b08ae94bdd974815f4a8744ba09f6d22d7"
+    },
+    "mobile/dist/_expo/static/js/ios/index-ba248d849274573c5db2f2d4e77bd319.hbc": {
+      "bytes": 1623204,
+      "sha256": "4b918aa9a4c70998a504d08d54fb68e439108636e20f7a6527dc50dd44192b96"
+    }
+  },
+  "dependency_audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 15,
+    "critical": 0,
+    "total": 15
+  },
+  "release_approved": false,
+  "not_executed": [
+    "real browser/device/screen-reader QA",
+    "Docker build",
+    "native binary compilation/signing",
+    "live provider delivery",
+    "public deployment",
+    "independent security review"
+  ]
+}

@@ -1,0 +1,22 @@
+Final completed native build output (after accessible border-token alignment):
+
+$ npm run typecheck
+> tsc --noEmit
+Exit code: 0
+
+$ npm run bundle
+> expo export --platform ios --platform android
+Starting Metro Bundler
+
+iOS Bundled 4584ms index.ts (630 modules)
+Android Bundled 8052ms index.ts (628 modules)
+
+ios:
+_expo/static/js/ios/index-ba248d849274573c5db2f2d4e77bd319.hbc (1.6MB)
+android:
+_expo/static/js/android/index-17b579b2f1c093996700404c74109244.hbc (1.6MB)
+metadata.json (244B)
+Exported: dist
+Exit code: 0
+
+These are Hermes JavaScript exports, not signed native binaries or device executions.

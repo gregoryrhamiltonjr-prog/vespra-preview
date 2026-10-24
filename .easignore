@@ -9,3 +9,5 @@ dist/
 *.mobileprovision
 *.key
 *.pem
+/web-backend/
+/GROK_HANDOFF.md

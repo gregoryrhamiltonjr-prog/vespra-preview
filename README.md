@@ -11,3 +11,15 @@ Node 22.13+; `npm ci --ignore-scripts --no-audit --no-fund`, then `npm run typec
 ## Release boundary
 
 This is an internal preview, not a public dating service. Do not enter real sensitive data. Known dependency advisories are recorded under `security/`; this is not a clean security audit or release approval. Dependencies retain their own licenses in THIRD_PARTY_NOTICES.txt. No signing credentials, account passwords, backend data, or tokens belong in this repository.
+
+
+## Complete product source
+
+The native Expo app remains at the repository root so the existing EAS project configuration is unchanged.
+
+- [Web client, backend and operator tools](web-backend/README.md)
+- [Design system / brand guide](web-backend/docs/brand-guide.md)
+- [API and architecture](web-backend/docs/architecture-and-safety.md)
+- [Grok / iMac TestFlight handoff](GROK_HANDOFF.md)
+
+No databases, private keys, signing profiles, account credentials, personal memory or SSH diagnostics are included. TestFlight signing/upload remains a separate unfinished step; putting source in GitHub does not install the app.

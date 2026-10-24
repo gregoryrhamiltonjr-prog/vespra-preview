@@ -1,0 +1,9 @@
+**/node_modules
+**/__pycache__
+*.sqlite3*
+*.zip
+*.log
+mobile
+.git
+.env*
+**/*key*
